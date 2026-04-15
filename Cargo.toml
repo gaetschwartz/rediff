@@ -23,10 +23,10 @@ tracing = ["dep:tracing"]
 
 [dependencies]
 # Core facet dependencies
-facet = { version = "0.44" }
-facet-core = { version = "0.44" }
-facet-pretty = { version = "0.44" }
-facet-reflect = { version = "0.44" }
+facet = { version = "0.46.0" }
+facet-core = { version = "0.46.0" }
+facet-pretty = { version = "0.46.0" }
+facet-reflect = { version = "0.46.0" }
 
 # From facet-diff-core
 confusables = "0.1"
@@ -38,7 +38,7 @@ unicode-width = "0.2"
 tracing = { version = "0.1", default-features = false, optional = true }
 
 [dev-dependencies]
-facet = { version = "0.44", features = [
+facet = { version = "0.46.0", features = [
   "all-impls",
 ] }
 tracing = "0.1"
